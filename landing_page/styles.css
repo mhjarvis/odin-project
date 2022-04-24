@@ -1,0 +1,193 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+                                /************* General ************/
+.container {
+    font-family: 'Roboto', sans-serif;
+    color: #f9faf8;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header, footer {
+    background-color: #1f2937;
+    padding: 15px 90px;
+}
+
+                                /************* Header ************/
+header {
+    padding-bottom: 100px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+                                /************* Navigation ************/
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    margin-bottom: 100px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link, .nav-link a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+                                /************* Hero ************/
+.hero {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 15px;
+}
+
+.hero-secondary, .nav {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-image {
+    height: 200px;
+    width: 400px;
+    background-color: rgb(115, 122, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f9faf8;
+    padding: 10px 35px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+                                /************* Information ************/
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    padding: 15px 90px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-image-container {
+    margin-top: 60px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.info-image {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-image img {
+    border: solid 4px #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.info-image p {
+    color: #7b889b;
+    text-align: center;
+}
+
+                                /************* Information ************/
+.quote-container {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+                                /************* Call to Action ************/
+.cto-section {
+    margin: 50px 100px;
+
+}
+.cto-container {
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cto-text-container h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.cto-text-container p {
+    color: #e5e7eb
+}
+
+.cto-button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f9faf8;
+    padding: 10px 35px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+}
+
+                                /************* Footer ************/
+footer {
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 25px 0;
+}
+
+
+
+
