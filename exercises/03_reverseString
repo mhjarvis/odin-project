@@ -1,0 +1,18 @@
+const reverseString = function(string) {
+
+    let splitString = string.split("");
+    let newArray = [];
+  
+    for(let i = 0; i < string.length; i++) {
+      let pop = splitString.pop();
+      newArray.push(pop);
+    }
+  
+    let newString = newArray.join("");   
+    return newString;
+    
+};
+
+// Do not edit below this line
+module.exports = reverseString;
+
