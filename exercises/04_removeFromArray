@@ -1,0 +1,13 @@
+const removeFromArray = function(arr, ...str) {
+
+    //arr = arr.filter(arr => arr != str);
+    for(let i = 0; i < str.length; i++) {
+        arr = arr.filter(arr => arr !== str[i]);
+      };
+
+    return arr;
+};
+
+// Do not edit below this line
+module.exports = removeFromArray;
+
