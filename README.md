@@ -6,5 +6,5 @@ A very basic html website project. Live preview at https://mhjarvis.github.io/re
 ### Landing Page Project
 A basic 'copy this website' project using HTML and CSS only. Live preview at https://mhjarvis.github.io/landing-page/
 
-### Tic-Tac-Toe Project
+### Rock-Paper-Scissors Project
 A basic project for The Odin Project using HTML, CSS and Javascript. For a live preview head to https://mhjarvis.github.io/rock-paper-scissors/
