@@ -6,6 +6,10 @@ A very basic html website project. Live preview at https://mhjarvis.github.io/re
 ### Landing Page Project
 A basic 'copy this website' project using HTML and CSS only. Live preview at https://mhjarvis.github.io/landing-page/
 
+### Etch-A-Sketch Project
+
+A project focusing on DOM manipulation using HTML, CSS And Javascript. For a live preview, check out https://mhjarvis.github.io/etch-a-sketch/.
+
 ### Rock-Paper-Scissors Project
 A basic project for The Odin Project using HTML, CSS and Javascript. For a live preview head to https://mhjarvis.github.io/rock-paper-scissors/
 
