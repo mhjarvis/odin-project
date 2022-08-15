@@ -5,9 +5,20 @@ body {
 
 .container {
     display: grid;
-    grid-template: 50px 50px / 50px 50px 50px;  /* short-hand property - rows/columns */
+    grid-template: 50px 50px / 50px 50px;  /* short-hand property - rows/columns */
+    grid-auto-rows: 100px;      /* any elements outside of grid will be added with this sizing */
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    
+    
+    /* grid-auto-flow: column;
+    grid-auto-columns: 200px;
    /*
     * grid-template-rows: 50px;                 // long-hand property
     * grid-template-columns: 50px 50px 50px;    // long-hand property
     */
+}
+
+.container > div {
+    border: 1px solid blue;
 }
