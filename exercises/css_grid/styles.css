@@ -1,3 +1,13 @@
+body {
+
+}
+
+
 .container {
     display: grid;
+    grid-template: 50px 50px / 50px 50px 50px;  /* short-hand property - rows/columns */
+   /*
+    * grid-template-rows: 50px;                 // long-hand property
+    * grid-template-columns: 50px 50px 50px;    // long-hand property
+    */
 }
