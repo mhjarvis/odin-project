@@ -3,15 +3,18 @@ body {
 }
 
 .grid-container {
-    resize: both;
-    overflow: auto;
+    resize: both;           /* allows user to resize element by draging bottom-right */
+    overflow: auto;         /* enable scrolling if resize the container to be smaller than grid */
     display: grid;
     gap: 4px;
     padding: 4px;
     border: 1px solid grey;
     background-color: skyblue;
-    grid-template-rows: 150px 150px;
-    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-columns: repeat(2, 150px);                        /* repeat() used */
+    grid-template-rows: repeat(5, 150px);                           /* repeat() used */
+    /* grid-template-rows: 150px 150px; */                          /* define track sizes individually */
+    /* grid-template-columns: 150px 150px 150px 150px 150px; */     /* define track sizes individually */
+
 }
 
 .grid-item {
