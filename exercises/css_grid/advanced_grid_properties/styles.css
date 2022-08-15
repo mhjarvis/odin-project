@@ -3,6 +3,7 @@ body {
 }
 
 .grid-container {
+    
     resize: both;           /* allows user to resize element by draging bottom-right */
     overflow: auto;         /* enable scrolling if resize the container to be smaller than grid */
     display: grid;
@@ -10,8 +11,8 @@ body {
     padding: 4px;
     border: 1px solid grey;
     background-color: skyblue;
-    grid-template-columns: repeat(2, 150px);                        /* repeat() used */
-    grid-template-rows: repeat(5, 150px);                           /* repeat() used */
+    grid-template-rows: repeat(2, min(250px, 50%));         /* The minimum value will always be used */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     /* grid-template-rows: 150px 150px; */                          /* define track sizes individually */
     /* grid-template-columns: 150px 150px 150px 150px 150px; */     /* define track sizes individually */
 
@@ -41,3 +42,23 @@ img {
 
 /******************** NOTES ********************/
 
+/*
+
+.grid-container {
+
+    /* The min(x, y) function will set the maximum size the row will become, always becoming the lowest of the two values (either 200px, or 50%); The 200px will become the maximum size once the 50% value is more than 200px (i.e. the window has expanded greatly). 
+
+        grid-template-rows: repeat(2, min(200px, 50%);     
+    
+    /* The max(x, y) function will set the minimum size something will be.
+
+        grid-template-columns: repeat(5, max(120px, 15%);
+
+    /* The clamp(minimum-size, ideal-size, maximum-size) function allows an item to resize itself until it reaches one of the minimum or maximum thresholds. Use a dynamic size for the ideal value, static size for the min/max values. The below will render with a width equal to 80% of its parent's width, unless that number is lower than 500px or higher than 1000px.
+
+        clamp(500px, 80%, 1000px);
+
+    /* auto-fit will return the highest positive integer without overflowing the grid. 
+
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
