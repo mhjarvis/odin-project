@@ -1,0 +1,31 @@
+@import url(./css/reset.css);
+@import url(./css/header.css);
+@import url(./css/body.css);
+@import url(./css/footer.css);
+@import url(./css/form.css);
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=IM+Fell+English+SC&family=Rye&display=swap');
+
+/* * { 
+     outline: 1px solid red;
+} */
+
+body {
+    font-family: 'IM Fell English SC', serif;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template: 50px 10fr 40px / 1fr;
+    height: 100vh;
+    width: 100%;
+}
+
+#black-background {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 75%;
+}

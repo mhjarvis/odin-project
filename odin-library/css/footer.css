@@ -1,0 +1,49 @@
+/* Footer container */
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 20px;
+    background-color: rgb(68, 159, 175);
+    color: white;
+}
+
+.footer-container * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+
+}
+
+/* Footer Elements */
+.copyright {
+    height: 22px
+}
+
+.mhjarvis {
+    border-right: 2px white;
+    border-left: 2px solid white;
+    padding: 0 10px;
+    height: 22px;
+    color: white;
+}
+
+.mhjarvis:hover {
+    transform: scale(1.2);
+}
+
+.mhjarvis-link {
+    text-decoration: none;
+}
+
+.github{
+    height: 24px;
+    transition: all 0.3s;
+}
+
+.github:hover {
+    transform: scale(1.2) rotate(360deg);
+}
