@@ -17,3 +17,8 @@ A basic project for The Odin Project using HTML, CSS and Javascript. For a live 
 This project focuses on building a working calculator application using html, css and javascript.
 
 A live preview can be found at https://mhjarvis.github.io/odin-calculator/. 
+
+### Odin Library
+This project focuses on building a library for The Odin Project using HTML, CSS & JavaScript.
+
+For a live preview, see https://mhjarvis.github.io/odin-library/.
